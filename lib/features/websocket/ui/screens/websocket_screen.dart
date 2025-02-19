@@ -7,27 +7,6 @@ import '../../const/message_type_const.dart';
 import '../../data/repository/websocket_repository.dart';
 import '../../models/websocket_message.dart';
 
-void main() async {
-  // Initialize dependency injection before running the app
-  await configureInjection();
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'WebSocket Echo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const WebSocketScreen(),
-    );
-  }
-}
-
 class WebSocketScreen extends StatefulWidget {
   const WebSocketScreen({super.key});
 

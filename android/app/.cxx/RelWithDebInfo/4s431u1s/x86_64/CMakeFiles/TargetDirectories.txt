@@ -1,0 +1,2 @@
+/Users/svetlana/StudioProjects/websocket_echo/android/app/.cxx/RelWithDebInfo/4s431u1s/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/svetlana/StudioProjects/websocket_echo/android/app/.cxx/RelWithDebInfo/4s431u1s/x86_64/CMakeFiles/edit_cache.dir
